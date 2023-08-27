@@ -69,5 +69,7 @@ class OdometerService : Service() {
 	companion object {
 		private var distanceInMeters = 0.0
 		private var lastLocation: Location? = null
+		const val PERMISSION_STRING1 = android.Manifest.permission.ACCESS_COARSE_LOCATION
+		const val PERMISSION_STRING2 = android.Manifest.permission.ACCESS_FINE_LOCATION
 	}
 }
